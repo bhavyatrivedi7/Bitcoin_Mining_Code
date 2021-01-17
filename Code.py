@@ -17,7 +17,7 @@ def mine(block_number, transactions, previous_hash, prefix_zeros):
 
 if __name__=='__main__':
     transactions=""
-    difficulty=8
+    difficulty=4
     print("start mining")
     new_hash = mine(5,transactions,'0000000xa036944e29568d0cff17edbe038f81208fecf9a66be9a2b8321c6ec7', difficulty)
     print(new_hash)
